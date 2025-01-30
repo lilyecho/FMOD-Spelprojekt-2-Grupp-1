@@ -3,3 +3,7 @@
 .*/
 !.gitignore
 /Metadata/Workspace.xml
+
+# ignore these mac files
+
+.DS_Store
