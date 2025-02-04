@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{48f3c0f5-adb1-40a5-9b3d-c8bd09daa4b5}">
+		<property name="name">
+			<value>CloseToTroll</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6bf49bd8-a3b8-4e20-a7a7-42c9439e2d74}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{70ae7ce7-bfc6-48a9-a69c-276afd3432ee}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{70ae7ce7-bfc6-48a9-a69c-276afd3432ee}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
