@@ -47,7 +47,7 @@ IsPowerActive
 			<destination>{68ab41dd-1e5f-484f-8ec6-176de5294f27}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{bfaa1394-9dc7-4452-b63c-dbe14a5e77c3}</destination>
+			<destination>{cfb5d5bf-14d1-40df-bd64-eaed1c6549a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{3b6ddd22-2769-4042-aa21-89e7d7b8abd4}">

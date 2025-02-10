@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{458c2287-caf9-4949-997c-4070947aa4ed}">
+	<object class="ParameterPreset" id="{7a792d4d-0d11-4ca1-81ac-612f474eb269}">
 		<property name="name">
-			<value>CatSneak</value>
+			<value>Surface</value>
 		</property>
 		<relationship name="folder">
-			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
+			<destination>{c1bd273f-5ef8-4013-9095-ff14460079e2}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{b21d587e-b85a-49ac-8eac-4a3918ea8f42}</destination>
+			<destination>{269a5d08-7a12-44a4-9915-86ce662049a8}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{b21d587e-b85a-49ac-8eac-4a3918ea8f42}">
+	<object class="GameParameter" id="{269a5d08-7a12-44a4-9915-86ce662049a8}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
@@ -20,7 +20,7 @@
 		</property>
 		<property name="enumerationLabels">
 			<value>Default</value>
-			<value>Sneaking</value>
+			<value>Rock</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

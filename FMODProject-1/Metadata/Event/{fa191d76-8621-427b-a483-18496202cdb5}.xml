@@ -43,7 +43,7 @@ BellMovement
 			<destination>{9383ab3e-1457-4709-8f9d-fc731ca69c87}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{bfaa1394-9dc7-4452-b63c-dbe14a5e77c3}</destination>
+			<destination>{cfb5d5bf-14d1-40df-bd64-eaed1c6549a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{eee1dc5c-d02d-4125-af45-ebc41078b68a}">
