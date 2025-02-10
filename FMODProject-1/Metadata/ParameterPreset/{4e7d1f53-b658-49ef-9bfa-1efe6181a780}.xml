@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4e7d1f53-b658-49ef-9bfa-1efe6181a780}">
+		<property name="name">
+			<value>CatPowers</value>
+		</property>
+		<relationship name="folder">
+			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{96c123f2-7b57-41ff-9cc7-0017286c3297}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{96c123f2-7b57-41ff-9cc7-0017286c3297}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>SuperJump</value>
+			<value>Glide</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

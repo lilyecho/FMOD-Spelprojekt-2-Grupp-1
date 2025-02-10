@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{458c2287-caf9-4949-997c-4070947aa4ed}">
+		<property name="name">
+			<value>CatMovement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b21d587e-b85a-49ac-8eac-4a3918ea8f42}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b21d587e-b85a-49ac-8eac-4a3918ea8f42}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Default</value>
+			<value>Sneaking</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

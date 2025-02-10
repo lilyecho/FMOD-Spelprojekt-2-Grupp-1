@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2521c695-6147-4b42-8407-b58da4f03c0b}">
+		<property name="name">
+			<value>BellMovement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{dbf6af0b-a79e-4666-9281-2c58c0233b53}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>CatRunning</value>
+			<value>CatJumping</value>
+			<value>CatLanding</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
