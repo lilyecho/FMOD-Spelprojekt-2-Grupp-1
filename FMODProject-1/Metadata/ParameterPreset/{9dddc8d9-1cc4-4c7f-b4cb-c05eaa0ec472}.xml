@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9dddc8d9-1cc4-4c7f-b4cb-c05eaa0ec472}">
+		<property name="name">
+			<value>TrollChasing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{21329fd2-d78f-4782-99e0-1add4012318a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{74f2e26a-b019-424f-99c6-19d2f2a96b07}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{74f2e26a-b019-424f-99c6-19d2f2a96b07}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
