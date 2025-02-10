@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPresetFolder" id="{4bf616b8-58dc-495f-8ebc-e67e07eb6337}">
+	<object class="ParameterPresetFolder" id="{9e58c44d-185b-4715-8a37-017739e5e463}">
 		<property name="name">
-			<value>StatesAmbiance</value>
+			<value>EnemyGlobal</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6bf49bd8-a3b8-4e20-a7a7-42c9439e2d74}</destination>
+			<destination>{8622f795-d7e6-4676-b406-0aa1d51cf79e}</destination>
 		</relationship>
 	</object>
 </objects>

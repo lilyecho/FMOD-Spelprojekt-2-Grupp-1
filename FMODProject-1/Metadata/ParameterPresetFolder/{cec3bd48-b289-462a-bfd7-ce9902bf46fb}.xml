@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPresetFolder" id="{4bf616b8-58dc-495f-8ebc-e67e07eb6337}">
+	<object class="ParameterPresetFolder" id="{cec3bd48-b289-462a-bfd7-ce9902bf46fb}">
 		<property name="name">
-			<value>StatesAmbiance</value>
+			<value>CatParamGlobal</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6bf49bd8-a3b8-4e20-a7a7-42c9439e2d74}</destination>
+			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
 		</relationship>
 	</object>
 </objects>
