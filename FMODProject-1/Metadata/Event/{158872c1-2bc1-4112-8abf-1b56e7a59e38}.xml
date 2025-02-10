@@ -46,7 +46,7 @@ Emote
 			<destination>{2b1254c4-d46c-4981-a59e-6d21c6b93d34}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{bfaa1394-9dc7-4452-b63c-dbe14a5e77c3}</destination>
+			<destination>{cfb5d5bf-14d1-40df-bd64-eaed1c6549a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{cc3d12d1-a8cf-4d78-89a2-3271d3188655}">
