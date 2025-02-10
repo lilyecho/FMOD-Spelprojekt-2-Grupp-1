@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d74dbfe9-1fe9-4454-b5ad-990f2d33f161}">
+		<property name="name">
+			<value>WEA_Intensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a61b81de-c516-49f8-9316-42aa489490f2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{974cb168-bf10-440f-93fd-55c6afe5f91a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{974cb168-bf10-440f-93fd-55c6afe5f91a}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.77999997138977051</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>25</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
