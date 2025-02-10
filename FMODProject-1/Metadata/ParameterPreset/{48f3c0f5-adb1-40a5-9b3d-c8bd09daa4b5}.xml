@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{48f3c0f5-adb1-40a5-9b3d-c8bd09daa4b5}">
+		<property name="note">
+			<value>When the player is close enough to the troll, this param is set to 1, when the player then is far enough away from the troll again, this param is set to 0</value>
+		</property>
 		<property name="name">
 			<value>CloseToTroll</value>
 		</property>
