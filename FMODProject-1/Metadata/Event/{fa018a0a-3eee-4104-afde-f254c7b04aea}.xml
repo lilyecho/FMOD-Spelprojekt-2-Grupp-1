@@ -8,11 +8,6 @@ Surface
 0 = default
 1 = rock
 
-Elevation
--90 = below fmod listener
-0 = same height as listener
-90 = above fmod listener
-
 </value>
 		</property>
 		<property name="name">

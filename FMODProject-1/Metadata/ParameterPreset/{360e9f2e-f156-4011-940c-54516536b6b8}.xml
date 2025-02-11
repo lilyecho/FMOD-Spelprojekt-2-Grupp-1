@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{fd5c07ce-8402-4a40-94e2-7ed943f6e1e9}">
+	<object class="ParameterPreset" id="{360e9f2e-f156-4011-940c-54516536b6b8}">
 		<property name="name">
-			<value>Emote</value>
+			<value>looping</value>
 		</property>
 		<relationship name="folder">
 			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{7d2435db-fbea-483e-862d-833063be2dc5}</destination>
+			<destination>{4d14ed59-5434-499e-99af-d813de562326}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{7d2435db-fbea-483e-862d-833063be2dc5}">
+	<object class="GameParameter" id="{4d14ed59-5434-499e-99af-d813de562326}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Default</value>
-			<value>Purring</value>
-			<value>Alerting</value>
-			<value>Question</value>
+			<value>Looping</value>
+			<value>ExitLoop</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
