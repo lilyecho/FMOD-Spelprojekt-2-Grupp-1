@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8df8b97e-a936-4eb7-830e-7246129be586}">
 		<property name="assetPath">
-			<value>VO/VO_Cat/VO_PC_Cat-EmoteAlerting-004.wav</value>
+			<value>Sound/VO/VO_Cat/VO_PC_Cat-EmoteAlerting-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

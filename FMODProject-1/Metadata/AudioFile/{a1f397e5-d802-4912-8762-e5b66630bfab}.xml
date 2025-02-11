@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a1f397e5-d802-4912-8762-e5b66630bfab}">
 		<property name="assetPath">
-			<value>Bells/Cat_Bell02-004.wav</value>
+			<value>Sound/Bells/Cat_Bell02-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
