@@ -5,7 +5,7 @@
 			<value>FluteDiegetic</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{17bcad91-9542-429c-9857-8398a92e289c}</destination>
@@ -314,6 +314,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e30b4a89-028b-4770-b88f-ba115a0036b8}">
 		<relationship name="effects">
+			<destination>{24e003aa-4bb6-4e2b-80ab-cb8cc35c38c4}</destination>
 			<destination>{8ab30f8a-17ea-4918-aff1-a7ed97bfbe2a}</destination>
 			<destination>{857f6f17-a1be-4f64-8677-c2b06548946a}</destination>
 			<destination>{4e9493a7-20e3-4f6d-8b08-3814cc670cf7}</destination>
@@ -368,6 +369,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0ca529c1-d538-4a98-878f-659f8245ebc5}" />
+	<object class="SpatialiserEffect" id="{24e003aa-4bb6-4e2b-80ab-cb8cc35c38c4}">
+		<property name="maximumDistance">
+			<value>150</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{8ab30f8a-17ea-4918-aff1-a7ed97bfbe2a}" />
 	<object class="SFXReverbEffect" id="{857f6f17-a1be-4f64-8677-c2b06548946a}">
 		<property name="decayTime">
