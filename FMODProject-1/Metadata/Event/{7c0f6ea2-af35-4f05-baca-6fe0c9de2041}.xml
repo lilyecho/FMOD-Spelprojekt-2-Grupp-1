@@ -879,6 +879,9 @@
 		<property name="length">
 			<value>154.83870967741922</value>
 		</property>
+		<property name="name">
+			<value>MainLoop</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{27e686b6-9327-4635-a3c4-0803e679c74e}</destination>
 		</relationship>
@@ -974,7 +977,7 @@
 			<destination>{44a65037-eebb-48f4-94e4-665b26e69fc3}</destination>
 		</relationship>
 		<relationship name="destination">
-			<destination>{899929d8-4415-4091-81a0-52594cb52be1}</destination>
+			<destination>{f8bbd2da-82cc-4975-a889-2788a58056a9}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{345aa22e-513d-4af6-bca4-f91e33c99fed}</destination>
@@ -1569,7 +1572,7 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.2547189</value>
+			<value>0.63826859</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b7fe7216-d46e-44c2-ac94-111ac3ecd9e7}">
