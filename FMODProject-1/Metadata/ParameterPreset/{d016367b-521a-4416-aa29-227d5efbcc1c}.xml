@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{d016367b-521a-4416-aa29-227d5efbcc1c}">
 		<property name="name">
-			<value>Distance</value>
+			<value>DistanceNorm</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4bf616b8-58dc-495f-8ebc-e67e07eb6337}</destination>

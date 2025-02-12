@@ -65,7 +65,11 @@
 			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{3ea7c05b-83f9-4e51-b6c1-52ea679e2210}" />
+	<object class="EventAutomatableProperties" id="{3ea7c05b-83f9-4e51-b6c1-52ea679e2210}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b539d53e-b583-46bc-a4ba-b29b98be332f}" />
 	<object class="GroupTrack" id="{013e30d9-3ed0-4a4b-9fae-38c8b1521ee9}">
 		<relationship name="modules">
@@ -105,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d907d0a1-e2d6-4e50-832f-4375cf62dd24}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{fe01c439-42f3-4f33-87ce-409943ef3224}</destination>
 		</relationship>
@@ -315,6 +322,7 @@
 			<destination>{be164c57-075a-4ed8-9320-25877fdcecc3}</destination>
 			<destination>{5001e361-edef-404c-a4a2-694c06794a1d}</destination>
 			<destination>{46fd0d2f-70db-446e-86ee-4003c5bb18fa}</destination>
+			<destination>{6a245cd9-5e5f-4ab8-af59-718940ad5dd0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c0ad58a1-b1a0-4311-b543-5420565eada5}" />
@@ -510,10 +518,33 @@
 	<object class="MixerBusFader" id="{5001e361-edef-404c-a4a2-694c06794a1d}" />
 	<object class="SpatialiserEffect" id="{46fd0d2f-70db-446e-86ee-4003c5bb18fa}">
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{6a245cd9-5e5f-4ab8-af59-718940ad5dd0}">
+		<property name="earlyDelay">
+			<value>162</value>
+		</property>
+		<property name="lateDelay">
+			<value>88</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>54</value>
+		</property>
+		<property name="diffusion">
+			<value>79</value>
+		</property>
+		<property name="highCut">
+			<value>760</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>94</value>
+		</property>
+		<property name="wetLevel">
+			<value>-10</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2c759aea-bf22-448b-9184-45d0cfced082}" />
@@ -606,7 +637,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-12</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dfb72efe-619d-4f9d-a0e4-c66d8b9ff501}">
@@ -614,7 +645,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-12</value>
 		</property>
 	</object>
 </objects>
