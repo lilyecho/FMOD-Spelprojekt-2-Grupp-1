@@ -170,7 +170,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b9699540-e608-44ee-a535-aecbd9a3aaf3}">
 		<property name="name">
-			<value>Wind</value>
+			<value>WindKraftig</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{8c63bfa2-ab3f-4eab-a5c1-1bcb72bf8bee}</destination>
@@ -266,7 +266,7 @@
 			<value>0.004843918191604013</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
 			<value>0.46948272</value>
@@ -277,7 +277,7 @@
 			<value>0.99946178686759957</value>
 		</property>
 		<property name="value">
-			<value>-60</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fd2e92ad-2edc-44ea-920c-18614d58db68}">
