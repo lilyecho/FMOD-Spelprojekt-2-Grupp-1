@@ -112,6 +112,9 @@ Surface
 		<property name="triggerProbability">
 			<value>50</value>
 		</property>
+		<property name="start">
+			<value>1</value>
+		</property>
 		<property name="startOffset">
 			<value>17.5</value>
 		</property>
@@ -164,10 +167,10 @@ Surface
 	</object>
 	<object class="ParameterCondition" id="{3aef26b6-c66a-4196-a734-d605f4cd0d84}">
 		<property name="minimum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{269a5d08-7a12-44a4-9915-86ce662049a8}</destination>

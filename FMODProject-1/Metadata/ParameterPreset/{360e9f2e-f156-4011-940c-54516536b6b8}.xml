@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{360e9f2e-f156-4011-940c-54516536b6b8}">
 		<property name="name">
-			<value>loopingCatVO</value>
+			<value>CatLoopingVO</value>
 		</property>
 		<relationship name="folder">
 			<destination>{49d031fa-0cd1-4e47-9c9a-bbb845addd7a}</destination>

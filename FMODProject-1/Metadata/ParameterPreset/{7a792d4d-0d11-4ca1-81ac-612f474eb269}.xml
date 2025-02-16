@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{7a792d4d-0d11-4ca1-81ac-612f474eb269}">
 		<property name="name">
-			<value>Surface</value>
+			<value>Material</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c1bd273f-5ef8-4013-9095-ff14460079e2}</destination>
@@ -16,14 +16,17 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Default</value>
-			<value>Rock</value>
+			<value>None</value>
+			<value>Dirt</value>
+			<value>Grass</value>
+			<value>Wood</value>
+			<value>Stone</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>
