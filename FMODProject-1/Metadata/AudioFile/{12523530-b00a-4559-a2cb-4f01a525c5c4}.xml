@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{12523530-b00a-4559-a2cb-4f01a525c5c4}">
+		<property name="assetPath">
+			<value>BirdsCC/XC962237 - Coal Tit - Periparus ater cypriotes-005.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.2153968253968253</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e361f2b-01a4-4bc5-9d73-611b77640c55}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -38,9 +38,6 @@
 		<relationship name="parameters">
 			<destination>{987d646e-9a41-4ac0-aaaf-27fdce0568d8}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{cfb5d5bf-14d1-40df-bd64-eaed1c6549a7}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{e7b470f1-3194-4f5d-b969-caabb1ae8fca}">
 		<relationship name="masterBus">
@@ -109,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{26b607d8-4786-491e-8e84-0bc6b3e7e4d0}">
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{c818177b-24f0-4373-8970-eb26521ac3e9}</destination>
 		</relationship>
@@ -141,9 +141,6 @@
 	<object class="MultiSound" id="{951e8b99-5eee-4f5b-b972-58b40ae877e5}">
 		<property name="length">
 			<value>2.9317233560090701</value>
-		</property>
-		<property name="pitch">
-			<value>1.60000002</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{0031db93-ecc0-4c68-8f92-d6d0c5621f54}</destination>
@@ -587,18 +584,18 @@
 	</object>
 	<object class="AutomationPoint" id="{42715aab-c2e9-49e6-9c4f-3bb2f765b94a}">
 		<property name="position">
-			<value>0.0099357101110461709</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-5.00000381</value>
+			<value>-12</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{63a900aa-6b7d-454c-a5bf-f7126e3de859}">
 		<property name="position">
-			<value>0.99298655756867327</value>
+			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-12</value>
 		</property>
 	</object>
 </objects>
