@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1e852714-a06b-46aa-9fd2-36b2621df89d}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>AMB_WEA</value>
 		</property>
@@ -50,6 +53,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{5dd79da7-82ce-4272-b425-69026ccb084a}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{081a2dc4-945a-4fdd-a435-c62b8bc1e55c}</destination>
 		</relationship>
@@ -57,7 +63,7 @@
 			<destination>{999756d2-b9c2-43e8-b2b2-0f2ac94c3d2e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{5aab101b-406d-4b23-9396-b98aa6486561}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{dbf9aa66-323a-4987-9e96-8a39e184dfec}" />
@@ -266,7 +272,7 @@
 			<value>0.004843918191604013</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.46948272</value>
@@ -277,7 +283,7 @@
 			<value>0.99946178686759957</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fd2e92ad-2edc-44ea-920c-18614d58db68}">
@@ -285,7 +291,7 @@
 			<value>0.004843918191604013</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2e017a7d-c2c8-4601-94d7-28fba9549a75}">
@@ -293,7 +299,7 @@
 			<value>0.5</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>10</value>
 		</property>
 	</object>
 </objects>

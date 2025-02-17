@@ -65,7 +65,7 @@ Surface
 			<destination>{98a23377-aac1-40fc-b2cb-638d2f0ecb5f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{86af7e2d-da79-472f-a820-11fabfd05742}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cdb43e3f-55e5-4b48-be83-d5af571d44c8}" />

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0b6abaf4-58cf-46cb-ad0b-deffa044a3c3}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>ENMY_TrollEmote</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{45b1efe2-393d-4d51-862b-85ea1e881b4c}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{fad0b353-8093-4a95-a8cf-13dd97d01426}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{16ac156c-2a0d-4afc-bce2-71312208d699}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{dca07246-f9c8-4f9d-9f46-a30cab6af12d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{612d4599-0736-4662-9841-3f87978bce1e}" />

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a75728c2-48bf-4067-a3b6-c8b297816171}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>ENMY_TrollFootstep</value>
 		</property>
@@ -49,6 +52,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{0d48f00f-622d-4582-9294-7f5460180897}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{bff49cf8-25fd-407c-b496-fd1747952746}</destination>
 		</relationship>
@@ -56,7 +62,7 @@
 			<destination>{dd7af1f9-a1dd-4691-b1ce-3b1c40bad8b4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{dca07246-f9c8-4f9d-9f46-a30cab6af12d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2e94d42e-04ee-4b74-a1d7-73c91045bd5f}" />

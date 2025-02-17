@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3bb03136-c2b8-4ce3-9344-c68773bd844f}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>PC_Cat_Landing</value>
 		</property>
@@ -47,6 +50,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{82400b0b-4259-47fe-8abf-3a3cbbbd11c9}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1ae1b224-a176-4237-911e-9bf8a32f634c}</destination>
 		</relationship>
@@ -54,7 +60,7 @@
 			<destination>{447319fd-20e8-41a4-8e44-a62a95e45a4e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{51e2b13c-0089-4830-95c4-2af4b77e53da}" />

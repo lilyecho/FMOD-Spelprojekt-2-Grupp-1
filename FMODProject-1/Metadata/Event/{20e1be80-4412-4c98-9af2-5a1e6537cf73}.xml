@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{20e1be80-4412-4c98-9af2-5a1e6537cf73}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>AMB_ANM_Bird</value>
 		</property>
@@ -56,6 +59,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{c43829d4-629e-411d-a404-082d1ccc7c3d}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{8c693623-9449-4b53-9771-ad801238af73}</destination>
 		</relationship>
@@ -63,7 +69,7 @@
 			<destination>{68223e3d-a4cf-49ef-aac3-796b3be29651}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{5aab101b-406d-4b23-9396-b98aa6486561}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3ea7c05b-83f9-4e51-b6c1-52ea679e2210}">
@@ -679,6 +685,12 @@
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>80</value>
+		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{6a245cd9-5e5f-4ab8-af59-718940ad5dd0}">
 		<property name="earlyDelay">
@@ -810,7 +822,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>

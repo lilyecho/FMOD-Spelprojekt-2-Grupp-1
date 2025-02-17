@@ -10,6 +10,9 @@ Emote
 2 = Alerting
 </value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>PC_Cat_Emote</value>
 		</property>
@@ -63,6 +66,9 @@ Emote
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{ab57bf04-187d-4726-b45f-85a51769eb75}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f0e3a433-612a-4003-b0b4-54673f15c71c}</destination>
 		</relationship>
@@ -70,7 +76,7 @@ Emote
 			<destination>{d51eed51-fe13-4d30-8b6c-fbce1f44d139}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c84c12a6-6411-47e2-bcbd-d670add1508b}" />

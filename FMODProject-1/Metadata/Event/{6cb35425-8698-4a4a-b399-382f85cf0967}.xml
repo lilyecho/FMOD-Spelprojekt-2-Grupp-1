@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6cb35425-8698-4a4a-b399-382f85cf0967}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>FluteDiegetic</value>
 		</property>
@@ -50,6 +53,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{2fd0d02a-fca8-402b-8a5b-a9f5fbd994bb}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e1812bdf-fdf2-4fb1-b63b-aedca39a59c2}</destination>
 		</relationship>
@@ -57,7 +63,7 @@
 			<destination>{05d966a7-cf22-4ba9-851f-cbf4cdadb045}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{5742bafa-f3a1-46e4-8725-de22792e98c4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3cf0d73a-61a8-4ad9-944f-83ff23691708}" />

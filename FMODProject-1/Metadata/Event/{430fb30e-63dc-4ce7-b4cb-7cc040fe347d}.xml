@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{430fb30e-63dc-4ce7-b4cb-7cc040fe347d}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>AMB_ANM_Bee</value>
 		</property>
@@ -55,6 +58,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{81b84540-fa78-4991-9680-43e91ad0481b}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0f9d858e-7e26-46e7-99a2-8b50904da62c}</destination>
 		</relationship>
@@ -62,7 +68,7 @@
 			<destination>{ab301465-ffda-4361-8174-ca43b5851d1b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{5aab101b-406d-4b23-9396-b98aa6486561}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{44bf99a2-baa9-4c4e-ad9f-3cc8f49ceffc}">
@@ -157,6 +163,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bcea9231-28c5-483f-a95a-3b01405db4f4}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Bees</value>
 		</property>
@@ -303,9 +312,6 @@
 		</relationship>
 	</object>
 	<object class="SFXReverbEffect" id="{15d9fc2c-e7f1-43d8-9188-964870908cc5}">
-		<property name="decayTime">
-			<value>1000</value>
-		</property>
 		<property name="earlyDelay">
 			<value>162</value>
 		</property>
@@ -335,6 +341,12 @@
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>78</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e5d76079-05bf-4fd4-95d5-75ebf84ffbb5}" />
@@ -370,6 +382,7 @@
 		</property>
 		<relationship name="automationCurves">
 			<destination>{d8769a0f-4b2d-44e6-8995-517487dc1817}</destination>
+			<destination>{84ad687b-c601-4ee7-8dec-684691b0576f}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{4cd75337-b4ce-42f1-ae01-d2afdc00fa75}">
@@ -418,6 +431,14 @@
 			<destination>{d13e81a9-8072-4ae9-b76c-02f8bc5da058}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{84ad687b-c601-4ee7-8dec-684691b0576f}">
+		<relationship name="parameter">
+			<destination>{a4fc81cc-6479-450d-86ec-39995c766ef1}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{5d8ff0d4-6a44-4815-857b-a5fe27749dcb}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{48d373a6-8a5d-48a2-8126-b2cae52f063b}">
 		<property name="position">
 			<value>0</value>
@@ -455,12 +476,20 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d13e81a9-8072-4ae9-b76c-02f8bc5da058}">
 		<property name="position">
 			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5d8ff0d4-6a44-4815-857b-a5fe27749dcb}">
+		<property name="position">
+			<value>0.22572967048493736</value>
 		</property>
 		<property name="value">
 			<value>-6</value>

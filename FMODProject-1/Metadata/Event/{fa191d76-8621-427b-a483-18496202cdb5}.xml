@@ -9,6 +9,9 @@ BellMovement
 1 = Cat is jumping
 2 = Cat is landing</value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>PC_Cat_Bell</value>
 		</property>
@@ -58,6 +61,9 @@ BellMovement
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{1ff99075-c265-4416-a50d-ce1cf3d5d9f0}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{781b7cf2-f6a8-49ea-a1fa-29a5ec2600fe}</destination>
 		</relationship>
@@ -65,7 +71,7 @@ BellMovement
 			<destination>{5f5695b4-7ad3-4553-83f1-12cd4fa83c05}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9df824f2-e279-4df7-a3a7-e04e7d3dad97}</destination>
+			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7c018c36-63ee-4efc-92fe-9cfb8645c613}" />
