@@ -121,6 +121,9 @@
 			<destination>{3b778a88-f258-4d09-928c-a0d2e7aebaec}</destination>
 			<destination>{afb6a133-8dc8-4337-bb50-214f09d7e7fc}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{a860be63-08de-466a-9268-f081cef26fb2}</destination>
+		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{6f47bfa2-b83f-4ac4-8b49-3045fa61e31f}">
 		<relationship name="preset">
@@ -383,9 +386,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7672ece7-b6bb-449a-86df-c7a0c14f3aa5}">
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
 		<property name="name">
 			<value>BirdFlute</value>
 		</property>
@@ -411,6 +411,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{d907d0a1-e2d6-4e50-832f-4375cf62dd24}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{a860be63-08de-466a-9268-f081cef26fb2}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>4.2012698412698413</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{153e0f3b-3811-4ff8-89be-1079b83abeea}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b539d53e-b583-46bc-a4ba-b29b98be332f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fe01c439-42f3-4f33-87ce-409943ef3224}">
@@ -764,7 +778,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ed2e6a60-c954-41a2-8d34-3ae16ab7e7f0}">
@@ -780,7 +794,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{15e66808-c330-4c51-810f-217dd0b02ffa}">

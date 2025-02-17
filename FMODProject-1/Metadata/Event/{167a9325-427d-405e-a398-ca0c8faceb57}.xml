@@ -191,6 +191,9 @@ IsPowerActive
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{b800e7f7-d855-4446-9d66-caa4adf4ed57}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{0bac60f0-b057-41dd-ae44-4cbbca7bad58}</destination>
 		</relationship>
@@ -384,6 +387,17 @@ IsPowerActive
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0bf26f04-2641-4c11-b286-296a76afd67f}" />
+	<object class="ADSRModulator" id="{b800e7f7-d855-4446-9d66-caa4adf4ed57}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{0bac60f0-b057-41dd-ae44-4cbbca7bad58}">
 		<relationship name="startPoint">
 			<destination>{5b57e8d2-8a49-4b01-a8d3-4b23cef9ee6a}</destination>
