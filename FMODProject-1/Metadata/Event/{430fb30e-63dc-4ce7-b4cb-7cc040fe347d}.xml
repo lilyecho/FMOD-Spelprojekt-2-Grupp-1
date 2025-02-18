@@ -75,6 +75,9 @@
 		<property name="priority">
 			<value>1</value>
 		</property>
+		<property name="maximumDistance">
+			<value>5</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{787f48e1-86cc-4ef2-a4c4-b10d97b36566}" />
 	<object class="GroupTrack" id="{dd0f1de9-87cd-45f0-bd37-38fbb2280883}">
@@ -339,6 +342,9 @@
 	</object>
 	<object class="MixerBusFader" id="{603e4334-ea44-4b36-8ee2-14c2cb6b8c49}" />
 	<object class="SpatialiserEffect" id="{42b8d68d-e888-4249-8e10-197055ed8415}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
@@ -401,7 +407,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{da15617f-57db-4a84-bffa-dab13db75d8c}">
