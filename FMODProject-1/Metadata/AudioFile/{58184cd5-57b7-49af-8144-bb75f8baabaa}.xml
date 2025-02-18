@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{58184cd5-57b7-49af-8144-bb75f8baabaa}">
 		<property name="assetPath">
-			<value>FEETHmn_Boot Step On Wood 22_LIWE_MKH416.wav</value>
+			<value>Sound/FEETHmn_Boot Step On Wood 22_LIWE_MKH416.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>192</value>

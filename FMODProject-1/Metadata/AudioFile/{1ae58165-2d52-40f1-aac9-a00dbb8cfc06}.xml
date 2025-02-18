@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1ae58165-2d52-40f1-aac9-a00dbb8cfc06}">
 		<property name="assetPath">
-			<value>sandDragging-010.wav</value>
+			<value>Sound/sandDragging-010.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

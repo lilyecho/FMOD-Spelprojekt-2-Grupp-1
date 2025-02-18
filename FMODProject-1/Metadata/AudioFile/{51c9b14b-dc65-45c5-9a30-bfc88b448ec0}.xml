@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{51c9b14b-dc65-45c5-9a30-bfc88b448ec0}">
 		<property name="assetPath">
-			<value>AMB_ANM_BeesLoop.wav</value>
+			<value>Sound/AMB_ANM_BeesLoop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

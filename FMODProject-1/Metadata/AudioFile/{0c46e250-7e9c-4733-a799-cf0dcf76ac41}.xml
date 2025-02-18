@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0c46e250-7e9c-4733-a799-cf0dcf76ac41}">
 		<property name="assetPath">
-			<value>beeSwarmLoopClose.wav</value>
+			<value>Sound/beeSwarmLoopClose.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

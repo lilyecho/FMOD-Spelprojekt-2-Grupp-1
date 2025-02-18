@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d8c0c8b4-a07b-4c84-a847-42735374a361}">
 		<property name="assetPath">
-			<value>ME19G_Reaper_footstep_grass_mono-194.wav</value>
+			<value>Sound/ME19G_Reaper_footstep_grass_mono-194.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

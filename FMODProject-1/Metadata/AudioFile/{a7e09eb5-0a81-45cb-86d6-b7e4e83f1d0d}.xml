@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a7e09eb5-0a81-45cb-86d6-b7e4e83f1d0d}">
 		<property name="assetPath">
-			<value>FEETHmn_Heavy Step Dense Sand 66_LIWE_GEOPHONE.wav</value>
+			<value>Sound/FEETHmn_Heavy Step Dense Sand 66_LIWE_GEOPHONE.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>192</value>

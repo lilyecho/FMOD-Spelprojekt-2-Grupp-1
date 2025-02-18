@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{65363726-a0d8-4571-ae14-7d9fb56855fb}">
 		<property name="assetPath">
-			<value>SongLoopMagicCharge-004.wav</value>
+			<value>Sound/SongLoopMagicCharge-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
