@@ -166,6 +166,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{189c2813-83c8-4ad0-80ae-7199c00746ab}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Enviorment</value>
 		</property>
@@ -259,6 +262,7 @@
 		<relationship name="effects">
 			<destination>{ba5ec9b5-d3df-4818-b0a3-4ebbd606adf2}</destination>
 			<destination>{2e57d508-907d-4334-a543-09cced90888e}</destination>
+			<destination>{d7e6ffd6-0560-4881-8eee-dae7382fd3ef}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9157d64d-c531-4d13-b6f9-47f23c9af21f}" />
@@ -335,10 +339,18 @@
 	</object>
 	<object class="ThreeEQEffect" id="{ba5ec9b5-d3df-4818-b0a3-4ebbd606adf2}">
 		<property name="lowGain">
-			<value>-5.5</value>
+			<value>-15.5</value>
+		</property>
+		<property name="midGain">
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2e57d508-907d-4334-a543-09cced90888e}" />
+	<object class="GainEffect" id="{d7e6ffd6-0560-4881-8eee-dae7382fd3ef}">
+		<property name="gain">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{7230f35f-5d27-4a49-a69d-2f31be42c053}" />
 	<object class="AutomationPoint" id="{529d79d6-e8a9-416e-b620-b094faf22527}">
 		<property name="position">
