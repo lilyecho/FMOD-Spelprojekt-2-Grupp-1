@@ -99,9 +99,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{2bca2a45-d638-4e8b-8354-bf6144a40b92}" />
 	<object class="SingleSound" id="{60c8031b-7992-4ac3-a2af-ee6e661175fd}">
-		<property name="start">
-			<value>0.76000000000000001</value>
-		</property>
 		<property name="length">
 			<value>100.04027210884354</value>
 		</property>
@@ -130,9 +127,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a632a8bb-9786-44ca-91ca-62ad3c9d70aa}">
-		<property name="start">
-			<value>0.76000000000000001</value>
-		</property>
 		<property name="length">
 			<value>102.40000000000001</value>
 		</property>
@@ -197,7 +191,7 @@
 	<object class="MixerBusFader" id="{8a3a7b46-d2f8-40f9-8491-026ad6514343}" />
 	<object class="AutomationPoint" id="{b5f47293-8091-47ee-aa4c-52b866b66ec0}">
 		<property name="position">
-			<value>0.76000000000000001</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -208,7 +202,7 @@
 	</object>
 	<object class="AutomationPoint" id="{16230691-0fee-4696-82e9-5504bf87f9ca}">
 		<property name="position">
-			<value>1.4099999999999995</value>
+			<value>0.64999999999999902</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -228,7 +222,7 @@
 	</object>
 	<object class="AutomationPoint" id="{b426ab9d-147c-4f76-b0bd-afc039599dd0}">
 		<property name="position">
-			<value>0.76000000000000001</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -239,7 +233,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ce6fa75b-4ec5-42c1-b0e4-c939cb6ba48b}">
 		<property name="position">
-			<value>1.1599999999999995</value>
+			<value>0.39999999999999925</value>
 		</property>
 		<property name="value">
 			<value>1</value>
