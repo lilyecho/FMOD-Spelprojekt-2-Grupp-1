@@ -8,7 +8,7 @@
 			<value>Cutscene</value>
 		</property>
 		<relationship name="masters">
-			<destination>{14d914d2-5640-40bd-ab43-11e9b9921536}</destination>
+			<destination>{a8f38e27-b074-4345-bd87-db43734429f6}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{c0f40e7b-c6db-4bad-b4dc-5a49dbd2e962}</destination>
