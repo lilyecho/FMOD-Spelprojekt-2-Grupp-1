@@ -1392,7 +1392,7 @@
 			<value>15000</value>
 		</property>
 		<property name="curveShape">
-			<value>0.146811843</value>
+			<value>0.646401227</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7130c000-9256-4950-9476-36b9f78b5c51}">
@@ -1400,7 +1400,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>20000</value>
+			<value>5000</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ea25f382-9fe0-4bff-836d-a27429232f10}">
