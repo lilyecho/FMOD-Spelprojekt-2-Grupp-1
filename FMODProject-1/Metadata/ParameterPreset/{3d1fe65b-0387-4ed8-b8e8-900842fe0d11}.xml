@@ -5,7 +5,7 @@
 			<value>OnSettings</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6bf49bd8-a3b8-4e20-a7a7-42c9439e2d74}</destination>
+			<destination>{92cc7a6f-5555-4d95-be08-a9432bfc204f}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{e5220a5c-7870-4178-b7cc-f8d126f5dfb3}</destination>
