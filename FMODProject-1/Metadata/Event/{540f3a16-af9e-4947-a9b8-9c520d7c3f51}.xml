@@ -135,7 +135,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7841469a-194c-412c-bb8a-05e4ef10b3ce}">
 		<property name="name">
-			<value>MagicCharging</value>
+			<value>Swoosh</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{eb857e8c-fbc2-4ffd-82f8-9cf85de9695f}</destination>

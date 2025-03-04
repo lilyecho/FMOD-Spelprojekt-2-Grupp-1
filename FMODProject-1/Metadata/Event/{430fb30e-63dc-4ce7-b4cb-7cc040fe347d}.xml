@@ -164,14 +164,17 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{f9764aad-7518-4e90-895f-5612437188e0}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{737d8b21-4421-4e9a-9610-c9cbfb324293}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{51c9b14b-dc65-45c5-9a30-bfc88b448ec0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bcea9231-28c5-483f-a95a-3b01405db4f4}">
-		<property name="volume">
-			<value>5</value>
-		</property>
 		<property name="name">
 			<value>Bees</value>
 		</property>
@@ -205,9 +208,6 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{6fe2741b-1be6-4a02-9f93-735fa48794bd}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{d6fe7dc1-269d-41c4-8e59-f859b1c3097c}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{0c46e250-7e9c-4733-a799-cf0dcf76ac41}</destination>
@@ -262,6 +262,34 @@
 	</object>
 	<object class="MixerBusPanner" id="{02574a24-17f4-4de0-a8f6-9c4e38d0074b}" />
 	<object class="MixerBusFader" id="{cd3d77fc-e78e-46b1-814e-625e14bc4791}" />
+	<object class="ADSRModulator" id="{f9764aad-7518-4e90-895f-5612437188e0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>140</value>
+		</property>
+		<property name="releaseTime">
+			<value>620</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ParameterCondition" id="{737d8b21-4421-4e9a-9610-c9cbfb324293}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0.099999994039535522</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a36ee3c8-1038-4351-b226-bff7476dd032}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{0f5334c1-72b0-41a6-8036-bb9f1750e582}">
 		<relationship name="effects">
 			<destination>{e5d76079-05bf-4fd4-95d5-75ebf84ffbb5}</destination>
@@ -284,17 +312,6 @@
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
-	</object>
-	<object class="ParameterCondition" id="{d6fe7dc1-269d-41c4-8e59-f859b1c3097c}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0.10499999672174454</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{a36ee3c8-1038-4351-b226-bff7476dd032}</destination>
-		</relationship>
 	</object>
 	<object class="Automator" id="{60ce4d15-9cc3-4efa-a477-0f63143253c6}">
 		<property name="nameOfPropertyBeingAutomated">
@@ -346,7 +363,7 @@
 			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
-			<value>6</value>
+			<value>8.60000038</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
@@ -399,7 +416,7 @@
 			<value>0.0035067212156633543</value>
 		</property>
 		<property name="value">
-			<value>3</value>
+			<value>7.7843194</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.615349054</value>
@@ -410,7 +427,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-1.21568108</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{da15617f-57db-4a84-bffa-dab13db75d8c}">
@@ -461,15 +478,15 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{37a6a45a-afab-45ae-8d5e-b7a1a9d97a8c}">
 		<property name="position">
-			<value>0.0017142857142857144</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{891eb28b-b180-4ca8-b9e6-b8a3eff5bcca}">

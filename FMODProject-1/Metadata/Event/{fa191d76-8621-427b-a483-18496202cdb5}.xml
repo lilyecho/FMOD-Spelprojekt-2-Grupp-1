@@ -150,9 +150,6 @@ BellMovement
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{da3ad182-51ba-4743-85fc-047d3a29c5ef}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>79.5</value>
 		</property>
@@ -167,6 +164,9 @@ BellMovement
 		</relationship>
 		<relationship name="modulators">
 			<destination>{b838cef3-5304-479c-8b03-eea18ed045f8}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{9a07be84-ec12-4bfe-a827-0cf277ac05e6}</destination>
 		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{d35bdd8c-729f-4a38-a0a3-638ce585096e}</destination>
@@ -239,6 +239,9 @@ BellMovement
 		<relationship name="modulators">
 			<destination>{ee171bab-ef3e-473b-a7c2-1f60d1155b49}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{a9f33231-c61f-4562-b130-6f5d82cd6f5d}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{02196a3b-4fbe-4896-a550-d539b38789e8}</destination>
 		</relationship>
@@ -296,6 +299,17 @@ BellMovement
 		<property name="amount">
 			<value>32.5</value>
 		</property>
+	</object>
+	<object class="ParameterCondition" id="{9a07be84-ec12-4bfe-a827-0cf277ac05e6}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
+		</relationship>
 	</object>
 	<object class="FadeCurve" id="{d35bdd8c-729f-4a38-a0a3-638ce585096e}">
 		<relationship name="startPoint">
@@ -485,6 +499,17 @@ BellMovement
 		<property name="amount">
 			<value>33</value>
 		</property>
+	</object>
+	<object class="ParameterCondition" id="{a9f33231-c61f-4562-b130-6f5d82cd6f5d}">
+		<property name="minimum">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
+		</relationship>
 	</object>
 	<object class="FadeCurve" id="{02196a3b-4fbe-4896-a550-d539b38789e8}">
 		<relationship name="startPoint">
@@ -715,7 +740,7 @@ BellMovement
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-12</value>
 		</property>
 	</object>
 	<object class="Automator" id="{70585d4c-3779-4d4b-af2d-bca75d7cb19a}">
