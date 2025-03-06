@@ -924,7 +924,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{51830c2d-3819-403f-9e33-ec9cbbece118}</destination>
