@@ -17,7 +17,7 @@ Emote
 			<value>PC_Cat_Emote</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd86bc6c-7a06-483c-8da2-1d6e05108baf}</destination>
@@ -395,7 +395,6 @@ Emote
 	<object class="MixerBusEffectChain" id="{f4284b0d-8545-43eb-b344-bcd4ff731c85}">
 		<relationship name="effects">
 			<destination>{50f353f1-0452-4380-9c20-f8c0b952d12e}</destination>
-			<destination>{15ae1a97-5956-4ee4-86d4-fd0e62451a0f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4c6cc710-cfb8-468f-8081-18ab7ca1a4dc}" />
@@ -692,7 +691,6 @@ Emote
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{50f353f1-0452-4380-9c20-f8c0b952d12e}" />
-	<object class="SpatialiserEffect" id="{15ae1a97-5956-4ee4-86d4-fd0e62451a0f}" />
 	<object class="AutomationPoint" id="{1d7cc13f-d3a3-4843-9166-21e910cad1d6}">
 		<property name="position">
 			<value>1.3784512917115175</value>
