@@ -50,6 +50,9 @@ Elevation
 		<relationship name="parameters">
 			<destination>{915ffa65-7656-49fe-b788-995779e1e1af}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{cfb5d5bf-14d1-40df-bd64-eaed1c6549a7}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{b3fb8417-fc36-4c32-8ae2-f96891b26bef}">
 		<relationship name="masterBus">
@@ -136,6 +139,9 @@ Elevation
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{82f64908-0cbe-4c1f-9e49-21c3eec93eae}">
+		<property name="start">
+			<value>1</value>
+		</property>
 		<property name="length">
 			<value>2</value>
 		</property>
@@ -174,9 +180,6 @@ Elevation
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{d5dc9a2f-b144-4990-a65e-000e1846222f}">
-		<property name="start">
-			<value>1</value>
-		</property>
 		<property name="startOffset">
 			<value>30</value>
 		</property>
@@ -370,7 +373,7 @@ Elevation
 	<object class="MixerBusFader" id="{e70eaa32-3c63-4ad6-b975-34e08c2ea4cb}" />
 	<object class="AutomationPoint" id="{30f5572b-61a1-4fc0-9085-09dcf5714752}">
 		<property name="position">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>60</value>
@@ -378,7 +381,7 @@ Elevation
 	</object>
 	<object class="AutomationPoint" id="{3f2f1770-dac4-4b59-8efd-6cec3935c01a}">
 		<property name="position">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -386,7 +389,7 @@ Elevation
 	</object>
 	<object class="AutomationPoint" id="{49554e31-03ef-4175-a2d6-7b4a0d143aad}">
 		<property name="position">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="value">
 			<value>9</value>
@@ -394,7 +397,7 @@ Elevation
 	</object>
 	<object class="AutomationPoint" id="{8516a8ec-bda4-45ac-92be-206098d3d0ae}">
 		<property name="position">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>-12</value>
