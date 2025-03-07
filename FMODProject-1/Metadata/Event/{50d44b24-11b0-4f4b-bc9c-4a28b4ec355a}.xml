@@ -5,7 +5,7 @@
 			<value>PotionSFX</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cbb89e86-31c5-4218-b253-dde42d591880}</destination>
@@ -171,7 +171,6 @@
 		<relationship name="effects">
 			<destination>{3149d40d-e8cf-4db8-a446-900e2137396a}</destination>
 			<destination>{c5a68330-a44c-468b-b59c-c432c13315ae}</destination>
-			<destination>{3d9bd971-097e-47ba-aac6-fa9fe6ba4718}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d8e9aaf3-0f30-486c-87f9-ed50e516b464}" />
@@ -220,12 +219,4 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c5a68330-a44c-468b-b59c-c432c13315ae}" />
-	<object class="SpatialiserEffect" id="{3d9bd971-097e-47ba-aac6-fa9fe6ba4718}">
-		<property name="minimumDistance">
-			<value>0.100000001</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-	</object>
 </objects>
