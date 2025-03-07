@@ -77,7 +77,11 @@ Elevation
 			<destination>{86af7e2d-da79-472f-a820-11fabfd05742}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{74efa506-c3e3-4b57-84fc-4a2905fd40db}" />
+	<object class="EventAutomatableProperties" id="{74efa506-c3e3-4b57-84fc-4a2905fd40db}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{53f88106-4bf2-4f6e-a8e3-dc160fe70e41}" />
 	<object class="GroupTrack" id="{61af21c5-acbc-4f6b-9d86-1d3a32d4ff5b}">
 		<relationship name="automationTracks">

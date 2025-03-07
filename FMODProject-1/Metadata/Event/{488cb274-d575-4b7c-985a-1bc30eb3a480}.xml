@@ -64,7 +64,7 @@
 			<destination>{aa22d931-2e36-4043-be69-4f509bf853d0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5aab101b-406d-4b23-9396-b98aa6486561}</destination>
+			<destination>{9bf5691b-3ecb-4c95-b364-8e29df4a6e55}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0b37f7a1-ae47-4eee-a586-dea536d2aca0}">
@@ -242,7 +242,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{949a266c-67ea-40b9-b3ef-7dd34f991db5}">
 		<relationship name="effects">
-			<destination>{1cb0d4dc-82e9-4042-b2de-31d5d85d52d1}</destination>
 			<destination>{15524f75-8b5d-4886-8027-97725d9eeebe}</destination>
 			<destination>{02128769-e4ad-4bf2-98d6-8b52fdb2ab97}</destination>
 			<destination>{0186047f-8da5-4a1c-9bfc-c59002d28e50}</destination>
@@ -366,32 +365,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{52c74918-52aa-4ff1-9b95-fae391fb3b15}" />
-	<object class="SFXReverbEffect" id="{1cb0d4dc-82e9-4042-b2de-31d5d85d52d1}">
-		<property name="decayTime">
-			<value>1000</value>
-		</property>
-		<property name="earlyDelay">
-			<value>162</value>
-		</property>
-		<property name="lateDelay">
-			<value>88</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>54</value>
-		</property>
-		<property name="diffusion">
-			<value>79</value>
-		</property>
-		<property name="highCut">
-			<value>760</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>94</value>
-		</property>
-		<property name="wetLevel">
-			<value>-12.3000002</value>
-		</property>
-	</object>
 	<object class="ThreeEQEffect" id="{15524f75-8b5d-4886-8027-97725d9eeebe}">
 		<property name="highGain">
 			<value>-5</value>
