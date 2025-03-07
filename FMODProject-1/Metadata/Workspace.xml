@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{cbebcd2d-78c9-41c2-8237-330178fb44c1}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../SP2_Unity/spelprojekt-2-grupp-1/Assets/Plugins/FMOD/Banks</value>
+			<value>../../spelprojekt-2-grupp-1/Assets/Plugins/FMOD/Banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{75e2fb0f-fc53-405b-b403-5d23f66f5b1b}</destination>
