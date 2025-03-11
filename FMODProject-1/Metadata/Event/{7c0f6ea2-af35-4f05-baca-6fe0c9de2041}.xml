@@ -610,9 +610,6 @@
 		<property name="commandType">
 			<value>3</value>
 		</property>
-		<property name="targetValue">
-			<value>0.29999998211860657</value>
-		</property>
 		<relationship name="commandTarget">
 			<destination>{974cb168-bf10-440f-93fd-55c6afe5f91a}</destination>
 		</relationship>
@@ -623,6 +620,9 @@
 		</property>
 		<property name="commandType">
 			<value>3</value>
+		</property>
+		<property name="targetValue">
+			<value>1</value>
 		</property>
 		<relationship name="commandTarget">
 			<destination>{974cb168-bf10-440f-93fd-55c6afe5f91a}</destination>

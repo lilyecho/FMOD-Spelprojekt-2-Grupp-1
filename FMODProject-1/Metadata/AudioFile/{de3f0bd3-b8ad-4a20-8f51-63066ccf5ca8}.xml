@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{de3f0bd3-b8ad-4a20-8f51-63066ccf5ca8}">
+		<property name="assetPath">
+			<value>VO_Song_short-027.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.42190476190476189</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e361f2b-01a4-4bc5-9d73-611b77640c55}</destination>
+		</relationship>
+	</object>
+</objects>
