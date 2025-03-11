@@ -153,6 +153,9 @@ BellMovement
 		<property name="triggerProbability">
 			<value>79.5</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<property name="length">
 			<value>0.59999999999999998</value>
 		</property>
@@ -167,6 +170,7 @@ BellMovement
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{9a07be84-ec12-4bfe-a827-0cf277ac05e6}</destination>
+			<destination>{642f55c4-797c-4547-abaa-562d7b6b8640}</destination>
 		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{d35bdd8c-729f-4a38-a0a3-638ce585096e}</destination>
@@ -233,6 +237,9 @@ BellMovement
 		<property name="triggerProbability">
 			<value>80</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<property name="length">
 			<value>0.59999999999999998</value>
 		</property>
@@ -241,6 +248,7 @@ BellMovement
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{a9f33231-c61f-4562-b130-6f5d82cd6f5d}</destination>
+			<destination>{8e4fb3f9-0942-4fa8-b4cb-d0488e5963d7}</destination>
 		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{02196a3b-4fbe-4896-a550-d539b38789e8}</destination>
@@ -306,6 +314,17 @@ BellMovement
 		</property>
 		<property name="maximum">
 			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{642f55c4-797c-4547-abaa-562d7b6b8640}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
@@ -506,6 +525,17 @@ BellMovement
 		</property>
 		<property name="maximum">
 			<value>2</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{8e4fb3f9-0942-4fa8-b4cb-d0488e5963d7}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{dbf6af0b-a79e-4666-9281-2c58c0233b53}</destination>
