@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b973b068-f2fb-4a32-8709-3abf4f24932c}">
 		<property name="assetPath">
-			<value>Music/Cutscenes/CTSCN_Scene2_Draft-2.wav</value>
+			<value>Music/Cutscenes/opening/CTSCN_Scene2_Draft-2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
