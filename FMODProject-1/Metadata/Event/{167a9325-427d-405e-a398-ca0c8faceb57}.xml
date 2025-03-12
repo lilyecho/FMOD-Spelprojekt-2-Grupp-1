@@ -82,7 +82,11 @@ IsPowerActive
 			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{f2992e16-52bc-41f8-ae1a-2f1f784a8173}" />
+	<object class="EventAutomatableProperties" id="{f2992e16-52bc-41f8-ae1a-2f1f784a8173}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{832ced35-72fb-4c65-8d0c-762aae00bba7}" />
 	<object class="MarkerTrack" id="{c8afdeeb-71c0-4cf7-a90d-84ff0d03333f}" />
 	<object class="MarkerTrack" id="{5def9418-186b-4dca-8367-2e4afdf8b599}" />
