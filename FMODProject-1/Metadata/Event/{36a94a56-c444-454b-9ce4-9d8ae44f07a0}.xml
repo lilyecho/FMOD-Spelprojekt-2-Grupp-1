@@ -64,7 +64,14 @@
 			<destination>{453fcdc2-b1b3-4b8b-a5a1-609e8ca8b231}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{d1a3d0a9-4b4a-483b-a971-97b7064fe943}" />
+	<object class="EventAutomatableProperties" id="{d1a3d0a9-4b4a-483b-a971-97b7064fe943}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="priority">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d4b38525-843a-4a46-bb1a-2aad3703b560}" />
 	<object class="GroupTrack" id="{5aa58db4-196d-4c24-af45-1c96076281af}">
 		<relationship name="mixerGroup">
@@ -642,7 +649,7 @@
 			<value>28.128</value>
 		</property>
 		<property name="length">
-			<value>8.0300000000000029</value>
+			<value>6.8720000000000017</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{b9f8b8dc-643f-45ba-8578-22e06cbadf89}</destination>
@@ -709,7 +716,7 @@
 	</object>
 	<object class="CommandSound" id="{192b6746-e264-4db5-989c-834f842ca908}">
 		<property name="start">
-			<value>67.200000000000003</value>
+			<value>68</value>
 		</property>
 		<property name="length">
 			<value>0</value>
@@ -726,10 +733,10 @@
 	</object>
 	<object class="EventSound" id="{886ac577-e69e-472b-8bc7-12e857a63b17}">
 		<property name="start">
-			<value>67.799999999999997</value>
+			<value>68</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>2.7999999999999972</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{0e39d2e8-e635-4894-80a7-9e0aa59ec405}</destination>
@@ -1536,7 +1543,7 @@
 	</object>
 	<object class="AutomationPoint" id="{16062020-6343-4d66-9159-4d64e0ecb6a6}">
 		<property name="position">
-			<value>35</value>
+			<value>33.841999999999999</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1547,7 +1554,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4705bf39-439e-46bb-b9da-e06efefa75b1}">
 		<property name="position">
-			<value>36.158000000000001</value>
+			<value>35</value>
 		</property>
 		<property name="value">
 			<value>0</value>
