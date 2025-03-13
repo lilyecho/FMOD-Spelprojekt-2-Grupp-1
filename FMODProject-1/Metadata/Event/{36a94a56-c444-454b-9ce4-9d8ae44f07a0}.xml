@@ -249,7 +249,7 @@
 			<value>126.63736961451247</value>
 		</property>
 		<property name="volume">
-			<value>3.5</value>
+			<value>4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0584f5e5-90f2-4828-b406-7f547fbab8e4}</destination>
@@ -458,6 +458,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5d8fa6dd-c098-440c-95e3-1a2797266ae8}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
 			<value>SFX_Wind</value>
 		</property>
