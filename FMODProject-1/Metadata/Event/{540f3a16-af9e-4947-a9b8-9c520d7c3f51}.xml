@@ -144,8 +144,13 @@
 		<property name="length">
 			<value>0.65775510204081633</value>
 		</property>
+		<property name="pitch">
+			<value>-3.60000014</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{d817787b-0b7a-4406-aa61-079e1d67add3}</destination>
+			<destination>{0d4b7af6-93da-4db6-b81e-0c0e13cd66ad}</destination>
+			<destination>{b1fb3788-fbac-4e92-a9d9-bcc32027ef80}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{4ca70586-690c-45c1-93ae-2cc633c056b1}</destination>
@@ -202,7 +207,29 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>17.5</value>
+			<value>23</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{0d4b7af6-93da-4db6-b81e-0c0e13cd66ad}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>40</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{b1fb3788-fbac-4e92-a9d9-bcc32027ef80}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>17</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{4ca70586-690c-45c1-93ae-2cc633c056b1}">
