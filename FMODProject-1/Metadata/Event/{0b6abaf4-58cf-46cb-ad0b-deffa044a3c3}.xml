@@ -68,7 +68,11 @@
 			<destination>{dca07246-f9c8-4f9d-9f46-a30cab6af12d}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{612d4599-0736-4662-9841-3f87978bce1e}" />
+	<object class="EventAutomatableProperties" id="{612d4599-0736-4662-9841-3f87978bce1e}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{fc51655a-0701-4576-b6d7-0a7d14380d83}" />
 	<object class="GroupTrack" id="{8a729956-a614-42d6-a50d-9735fe46a198}">
 		<relationship name="modules">
@@ -226,6 +230,9 @@
 		</property>
 		<property name="length">
 			<value>4.8000000000000007</value>
+		</property>
+		<property name="volume">
+			<value>6.5</value>
 		</property>
 		<property name="pitch">
 			<value>-13</value>
@@ -542,6 +549,12 @@
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>7.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c7459455-21bd-4bd3-ba62-471286699463}">
