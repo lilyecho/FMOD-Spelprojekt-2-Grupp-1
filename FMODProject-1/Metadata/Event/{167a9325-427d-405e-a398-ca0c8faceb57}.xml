@@ -84,7 +84,7 @@ IsPowerActive
 	</object>
 	<object class="EventAutomatableProperties" id="{f2992e16-52bc-41f8-ae1a-2f1f784a8173}">
 		<property name="maxVoices">
-			<value>1</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{832ced35-72fb-4c65-8d0c-762aae00bba7}" />
