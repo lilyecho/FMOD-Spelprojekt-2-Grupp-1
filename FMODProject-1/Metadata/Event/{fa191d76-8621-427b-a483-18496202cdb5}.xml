@@ -796,6 +796,7 @@ BellMovement
 		<relationship name="automationPoints">
 			<destination>{b6b84180-3c9c-4022-9364-2b581c94ac3f}</destination>
 			<destination>{5238e37a-2460-47d2-9a45-b49520e47830}</destination>
+			<destination>{432a07b2-a088-4ebd-98f8-d8fdc6278f40}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{b9edcf65-4e64-414d-a76f-5b04bb73a49a}">
@@ -821,6 +822,14 @@ BellMovement
 		</property>
 		<property name="value">
 			<value>-12</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{432a07b2-a088-4ebd-98f8-d8fdc6278f40}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5b765cf1-739f-44cb-acec-6b2f8f4aa356}">
