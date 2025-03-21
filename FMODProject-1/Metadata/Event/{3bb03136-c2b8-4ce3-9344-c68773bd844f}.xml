@@ -107,6 +107,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{447319fd-20e8-41a4-8e44-a62a95e45a4e}" />
 	<object class="EventSound" id="{18c52ade-bee3-4d40-81dd-63bae5fbf78a}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{4579518f-6f0b-4046-b2bf-7f23edd27464}</destination>
 		</relationship>

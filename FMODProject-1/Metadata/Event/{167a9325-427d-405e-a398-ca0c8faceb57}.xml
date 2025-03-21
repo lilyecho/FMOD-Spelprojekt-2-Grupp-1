@@ -178,6 +178,9 @@ IsPowerActive
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e4b2d7d6-0b48-40d5-86ca-56888b0c0654}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b54e321e-d5fe-474d-a387-9820615ad979}</destination>
 		</relationship>
@@ -491,6 +494,9 @@ IsPowerActive
 		<property name="length">
 			<value>0.65775510204081633</value>
 		</property>
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="pitch">
 			<value>17.5</value>
 		</property>
@@ -509,6 +515,9 @@ IsPowerActive
 		</property>
 		<property name="startOffset">
 			<value>50</value>
+		</property>
+		<property name="volume">
+			<value>-12</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{6660e230-5a78-42e1-a6e1-9080cbf46c7d}</destination>
