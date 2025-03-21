@@ -667,6 +667,8 @@ BellMovement
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{1a79db97-1302-4bc9-a8f0-da9249d3c794}</destination>
+			<destination>{5036b3b4-3c4a-4174-8eff-e3b51ba016c7}</destination>
+			<destination>{dabe95d8-719a-4dc2-b3e2-3275529177f8}</destination>
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{ab88eb89-3102-4659-9b6f-09ac721be3e6}">
@@ -728,7 +730,8 @@ BellMovement
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{2ad0dae8-ef9a-4eca-b63e-e9a8e9334248}</destination>
-			<destination>{4ef652f3-1d37-4c53-b744-5ef3612fc6d0}</destination>
+			<destination>{e6962631-5692-4171-8a8c-8661a0e23f41}</destination>
+			<destination>{7b0cc12b-415c-4ecb-b774-b4af5b2062fd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3e7f4ae1-8e1c-45da-9806-be427301c2bc}" />
@@ -764,6 +767,22 @@ BellMovement
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{5036b3b4-3c4a-4174-8eff-e3b51ba016c7}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{dabe95d8-719a-4dc2-b3e2-3275529177f8}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>6</value>
+		</property>
+	</object>
 	<object class="Automator" id="{70585d4c-3779-4d4b-af2d-bca75d7cb19a}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>highGain</value>
@@ -781,7 +800,15 @@ BellMovement
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{4ef652f3-1d37-4c53-b744-5ef3612fc6d0}">
+	<object class="AutomationPoint" id="{e6962631-5692-4171-8a8c-8661a0e23f41}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7b0cc12b-415c-4ecb-b774-b4af5b2062fd}">
 		<property name="position">
 			<value>1</value>
 		</property>
@@ -805,7 +832,8 @@ BellMovement
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{5b765cf1-739f-44cb-acec-6b2f8f4aa356}</destination>
-			<destination>{1ce018ab-94ca-41db-bedc-52bad07480c7}</destination>
+			<destination>{e28b82fd-1213-4fdd-a2a2-e5596de8b750}</destination>
+			<destination>{c4fa5780-a4da-45fe-aba4-53ac2ad686c9}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{b6b84180-3c9c-4022-9364-2b581c94ac3f}">
@@ -840,7 +868,15 @@ BellMovement
 			<value>-12</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{1ce018ab-94ca-41db-bedc-52bad07480c7}">
+	<object class="AutomationPoint" id="{e28b82fd-1213-4fdd-a2a2-e5596de8b750}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c4fa5780-a4da-45fe-aba4-53ac2ad686c9}">
 		<property name="position">
 			<value>1</value>
 		</property>
