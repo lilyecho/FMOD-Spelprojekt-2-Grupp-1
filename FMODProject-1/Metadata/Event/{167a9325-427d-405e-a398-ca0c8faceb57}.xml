@@ -178,9 +178,6 @@ IsPowerActive
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e4b2d7d6-0b48-40d5-86ca-56888b0c0654}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{b54e321e-d5fe-474d-a387-9820615ad979}</destination>
 		</relationship>
