@@ -597,6 +597,7 @@ IsPowerActive
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{23e5b4b2-f5f1-494c-a311-0542c14628aa}</destination>
+			<destination>{a928a9e3-8b2a-48da-8ab4-93aced7199c5}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{b6d0ba7a-0e64-4c02-9e61-244582e61c87}">
@@ -1115,6 +1116,17 @@ IsPowerActive
 		</property>
 		<relationship name="parameter">
 			<destination>{fb229148-fded-4759-8ef6-4430cd4ac590}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a928a9e3-8b2a-48da-8ab4-93aced7199c5}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{96c123f2-7b57-41ff-9cc7-0017286c3297}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{15133dd4-ad80-4f68-a5de-3a112907adf7}">
