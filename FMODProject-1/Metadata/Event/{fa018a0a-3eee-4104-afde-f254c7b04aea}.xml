@@ -68,7 +68,11 @@ Surface
 			<destination>{86af7e2d-da79-472f-a820-11fabfd05742}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{cdb43e3f-55e5-4b48-be83-d5af571d44c8}" />
+	<object class="EventAutomatableProperties" id="{cdb43e3f-55e5-4b48-be83-d5af571d44c8}">
+		<property name="maxVoices">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7bd888cd-4331-4166-b172-992157add175}" />
 	<object class="GroupTrack" id="{9644b88b-14bc-4e94-a2e1-b752616c5a14}">
 		<relationship name="automationTracks">

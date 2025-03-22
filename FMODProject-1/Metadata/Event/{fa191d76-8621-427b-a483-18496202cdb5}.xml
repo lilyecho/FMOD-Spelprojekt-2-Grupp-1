@@ -75,7 +75,11 @@ BellMovement
 			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{7c018c36-63ee-4efc-92fe-9cfb8645c613}" />
+	<object class="EventAutomatableProperties" id="{7c018c36-63ee-4efc-92fe-9cfb8645c613}">
+		<property name="maxVoices">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d9763317-5ac5-4688-bc3d-deb1fc0361c8}" />
 	<object class="GroupTrack" id="{be670792-e06b-49fd-bd9c-96581face885}">
 		<relationship name="automationTracks">

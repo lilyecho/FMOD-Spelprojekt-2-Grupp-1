@@ -79,7 +79,11 @@ Emote
 			<destination>{2e774d28-1035-4d62-86fc-ef4307e7f4d6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{c84c12a6-6411-47e2-bcbd-d670add1508b}" />
+	<object class="EventAutomatableProperties" id="{c84c12a6-6411-47e2-bcbd-d670add1508b}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{3fbd0f2f-2ed5-4a14-9859-578cce333f05}" />
 	<object class="MarkerTrack" id="{ff51c363-3cd8-4cbf-9c00-35e9e37e9368}" />
 	<object class="GroupTrack" id="{ff98d129-fc83-43b3-acfd-353232b09cfb}">
