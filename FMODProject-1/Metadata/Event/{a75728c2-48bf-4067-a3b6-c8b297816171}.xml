@@ -457,7 +457,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{49c650ee-9c43-4eb8-9440-dcb4110c7460}" />
-	<object class="SpatialiserEffect" id="{ffecefca-18c2-4140-ae9d-39a9c05bdef1}" />
+	<object class="SpatialiserEffect" id="{ffecefca-18c2-4140-ae9d-39a9c05bdef1}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{e640f31d-bb87-49fc-a954-6db8fab07669}">
 		<property name="position">
 			<value>0.060000000000000012</value>
