@@ -74,7 +74,7 @@
 			<value>1</value>
 		</property>
 		<property name="voiceStealing">
-			<value>4</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{f546a2d6-4a5c-4f65-a424-6012566c9369}" />
