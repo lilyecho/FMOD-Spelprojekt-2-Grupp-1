@@ -296,6 +296,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{595659d5-7b5e-496e-b3ae-b1948da6f483}" />
 	<object class="SpatialiserEffect" id="{1112dfd3-ef0e-4c6b-925d-034ee62bb9e8}">
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>

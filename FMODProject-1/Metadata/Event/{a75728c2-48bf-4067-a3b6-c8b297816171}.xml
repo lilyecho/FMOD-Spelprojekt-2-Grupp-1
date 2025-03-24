@@ -454,6 +454,9 @@
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{f9bf18af-a708-457b-bb90-494c79b31526}">
+		<property name="lowGain">
+			<value>-12</value>
+		</property>
 		<relationship name="automators">
 			<destination>{52cce8f5-1165-4c6f-a968-ecb412517f15}</destination>
 			<destination>{086ed6ad-145e-4820-830d-a87c361e7f5a}</destination>
@@ -462,7 +465,7 @@
 	<object class="MixerBusFader" id="{49c650ee-9c43-4eb8-9440-dcb4110c7460}" />
 	<object class="SpatialiserEffect" id="{ffecefca-18c2-4140-ae9d-39a9c05bdef1}">
 		<property name="maximumDistance">
-			<value>7</value>
+			<value>5</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
