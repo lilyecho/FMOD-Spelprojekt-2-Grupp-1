@@ -157,7 +157,6 @@ IsPowerActive
 			<destination>{b8c0e254-4462-4f86-848d-f37668c76dc9}</destination>
 			<destination>{1aaeb655-7051-4911-b3bf-29a28aa16a72}</destination>
 			<destination>{9a4c5603-997a-4b51-843f-366ab25b3449}</destination>
-			<destination>{ff76f9b3-f25b-4aec-88b1-22f6223f3f6e}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{ef55cda2-95b1-4236-9c84-f0a50031b333}">
@@ -273,6 +272,9 @@ IsPowerActive
 	<object class="CommandSound" id="{d8d49c79-6da8-48fc-b7eb-73e4c2a2dc13}">
 		<property name="commandType">
 			<value>3</value>
+		</property>
+		<property name="targetValue">
+			<value>1</value>
 		</property>
 		<relationship name="commandTarget">
 			<destination>{fb229148-fded-4759-8ef6-4430cd4ac590}</destination>
@@ -583,6 +585,9 @@ IsPowerActive
 		<property name="length">
 			<value>3.0000000000000009</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{1e6cd6ce-e968-49ac-b98f-0a5a0d0c6fe6}</destination>
 		</relationship>
@@ -702,26 +707,6 @@ IsPowerActive
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{774e1edc-fe6a-4f20-9302-c6c0e7e1b8e4}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionRegion" id="{ff76f9b3-f25b-4aec-88b1-22f6223f3f6e}">
-		<property name="position">
-			<value>4.0688912809472546</value>
-		</property>
-		<property name="length">
-			<value>2.0751700680272114</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{1e6cd6ce-e968-49ac-b98f-0a5a0d0c6fe6}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{fd8c3490-099e-4049-bc18-fedcd251bd58}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{b8c0e254-4462-4f86-848d-f37668c76dc9}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{8361549e-db4d-43bc-a395-a883b0b06941}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b54e321e-d5fe-474d-a387-9820615ad979}">
@@ -1190,17 +1175,6 @@ IsPowerActive
 		</property>
 		<relationship name="parameter">
 			<destination>{fb229148-fded-4759-8ef6-4430cd4ac590}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{8361549e-db4d-43bc-a395-a883b0b06941}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{96c123f2-7b57-41ff-9cc7-0017286c3297}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{01c8c6e4-efc9-4bed-9d64-eeb4d3bdde9d}" />
