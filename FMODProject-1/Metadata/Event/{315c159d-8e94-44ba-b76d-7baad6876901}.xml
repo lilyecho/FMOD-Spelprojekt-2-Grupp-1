@@ -278,7 +278,7 @@
 			<value>139.32074829931972</value>
 		</property>
 		<property name="volume">
-			<value>0.5</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{c3088e72-95f0-4f52-bbca-7603cb8ca6ac}</destination>
@@ -327,7 +327,7 @@
 			<value>140.80682539682539</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{fd4a3773-c2d5-4331-b710-a236c9c280d1}</destination>
@@ -389,7 +389,7 @@
 			<value>140.80682539682539</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e296884c-cd59-4532-af46-251add5d16b5}</destination>
@@ -438,7 +438,7 @@
 			<value>147.10113378684807</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{9eb04e6c-d3e4-4d19-96cc-31ba05e6fb2a}</destination>
@@ -482,7 +482,7 @@
 			<value>136.875</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>2.5</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{f241ae40-7f20-4a63-baec-1f626d8848f7}</destination>
@@ -501,7 +501,7 @@
 			<value>136.875</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>2.5</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{ca089cbc-dc9c-466b-a883-f3eaa1c415ba}</destination>
