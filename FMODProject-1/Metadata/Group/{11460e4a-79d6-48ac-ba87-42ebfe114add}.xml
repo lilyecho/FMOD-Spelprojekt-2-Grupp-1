@@ -4,9 +4,6 @@
 		<property name="color">
 			<value>Red</value>
 		</property>
-		<property name="volume">
-			<value>4</value>
-		</property>
 		<property name="name">
 			<value>SFX</value>
 		</property>
@@ -25,6 +22,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{85295a7c-1b4a-4e19-8e31-2ee9823a7fb7}">
 		<relationship name="effects">
+			<destination>{2f394203-2d27-4b3a-be50-99d992f718b1}</destination>
 			<destination>{0ad456df-6ef5-463a-8ab3-b0907398f456}</destination>
 			<destination>{fe460c64-3916-486d-9628-705a5b5c5ef1}</destination>
 			<destination>{7ba03c73-5b15-436b-bf4b-92de51654c23}</destination>
@@ -33,6 +31,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c8ea9514-8084-4994-989a-0ae8f8d74b31}" />
+	<object class="LimiterEffect" id="{2f394203-2d27-4b3a-be50-99d992f718b1}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+		<property name="release">
+			<value>5.80000019</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{0ad456df-6ef5-463a-8ab3-b0907398f456}">
 		<property name="level">
 			<value>0</value>
