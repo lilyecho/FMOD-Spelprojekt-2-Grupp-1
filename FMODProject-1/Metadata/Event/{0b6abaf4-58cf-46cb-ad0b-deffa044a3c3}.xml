@@ -120,7 +120,7 @@
 			<value>3.5</value>
 		</property>
 		<property name="volume">
-			<value>7</value>
+			<value>10</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{416523b1-c957-4cce-8801-1e491226bb10}</destination>
@@ -132,6 +132,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1cebfd1f-6db4-4e25-b410-7ec7923a40dc}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
