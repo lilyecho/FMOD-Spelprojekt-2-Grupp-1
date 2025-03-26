@@ -88,7 +88,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximumDistance">
-			<value>5</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{b539d53e-b583-46bc-a4ba-b29b98be332f}" />
