@@ -287,8 +287,6 @@
 			<destination>{c9fb31b9-4480-4267-a001-bcc79c74dc19}</destination>
 			<destination>{aa2addcc-f691-4438-b821-92b2eefe6931}</destination>
 			<destination>{abea9838-0937-4510-819f-02d77c74a6aa}</destination>
-			<destination>{d16057df-5791-4e32-8471-59abb10c12b5}</destination>
-			<destination>{5ecdfd11-69bd-470e-a4fa-255994d8f1c0}</destination>
 			<destination>{101fefea-d1a2-411c-bb1d-9cb2b6089f16}</destination>
 			<destination>{622a582e-0192-4418-b0de-59840607b9d8}</destination>
 			<destination>{8de8eb44-8cbe-4c24-954c-c74168451884}</destination>
@@ -328,10 +326,6 @@
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{9639bbd9-4695-4e27-9322-d84654ba564c}">
-		<relationship name="modules">
-			<destination>{d16057df-5791-4e32-8471-59abb10c12b5}</destination>
-			<destination>{5ecdfd11-69bd-470e-a4fa-255994d8f1c0}</destination>
-		</relationship>
 		<relationship name="preset">
 			<destination>{74f2e26a-b019-424f-99c6-19d2f2a96b07}</destination>
 		</relationship>
@@ -1351,37 +1345,6 @@
 		<property name="length">
 			<value>0</value>
 		</property>
-	</object>
-	<object class="CommandSound" id="{d16057df-5791-4e32-8471-59abb10c12b5}">
-		<property name="length">
-			<value>0.20000000000000001</value>
-		</property>
-		<property name="commandType">
-			<value>3</value>
-		</property>
-		<property name="targetValue">
-			<value>0.5</value>
-		</property>
-		<relationship name="commandTarget">
-			<destination>{974cb168-bf10-440f-93fd-55c6afe5f91a}</destination>
-		</relationship>
-	</object>
-	<object class="CommandSound" id="{5ecdfd11-69bd-470e-a4fa-255994d8f1c0}">
-		<property name="start">
-			<value>0.74219590425491333</value>
-		</property>
-		<property name="length">
-			<value>0.25780409574508667</value>
-		</property>
-		<property name="commandType">
-			<value>3</value>
-		</property>
-		<property name="targetValue">
-			<value>1</value>
-		</property>
-		<relationship name="commandTarget">
-			<destination>{974cb168-bf10-440f-93fd-55c6afe5f91a}</destination>
-		</relationship>
 	</object>
 	<object class="CommandSound" id="{101fefea-d1a2-411c-bb1d-9cb2b6089f16}">
 		<property name="start">
