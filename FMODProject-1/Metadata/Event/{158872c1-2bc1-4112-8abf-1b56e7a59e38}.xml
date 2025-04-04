@@ -497,6 +497,7 @@ Emote
 	</object>
 	<object class="MixerBusEffectChain" id="{80e701db-598e-444a-b151-9567ed876d6d}">
 		<relationship name="effects">
+			<destination>{d3ed5d69-6802-4bbb-947f-77141d5866cc}</destination>
 			<destination>{c8cd4522-d077-4ad0-9eff-ba4788dbb3b0}</destination>
 		</relationship>
 	</object>
@@ -751,6 +752,17 @@ Emote
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{d3ed5d69-6802-4bbb-947f-77141d5866cc}">
+		<property name="midGain">
+			<value>-6</value>
+		</property>
+		<property name="highGain">
+			<value>-12</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c8cd4522-d077-4ad0-9eff-ba4788dbb3b0}" />
